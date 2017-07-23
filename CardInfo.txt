@@ -1,0 +1,1214 @@
+/Library/Frameworks/Python.framework/Versions/2.7/bin/python2.7 "/Users/zheyuanfu/Documents/Python programming/Spyder/test.py"
+<!doctype html>
+<!--
+    设计：罗俊
+    制作：罗俊
+    编辑：
+    创建时间：2013年06月
+-->
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=7" />
+		<title>多玩炉石传说卡牌数据库</title>
+		<meta content=",多玩炉石传说卡牌数据库" name="Description" />
+		<meta content=",多玩炉石传说卡牌数据库,魔兽英雄传卡牌数据,国服炉石数据,炉石数据" name="Keywords" />
+		<script src="http://www.duowan.com/assets/js/jquery.js"></script>
+		<script src="http://www.duowan.com/assets/js/dww3.js"></script>
+		<link rel="stylesheet" href="http://db.duowan.com/static/lushi/v1306/global.css" />
+		<link rel="stylesheet" href="http://db.duowan.com/static/lushi/v1306/dwzq-common.css">
+		<link rel="stylesheet" href=" http://db.duowan.com/static/mt/jqueryui/css/bootstrap/jquery-ui-1.10.0.custom.css">
+		<link rel="stylesheet" href="http://assets.dwstatic.com/b=lego/1.0.0/css&f=mod.datatips.css">
+		<script src="http://assets.dwstatic.com/b=lego/1.0.0/js&f=lego.tooltip.js"></script>
+
+		<base target="_blank" />
+	</head>
+
+	<body>
+   <!-- 5253通用导航{ -->
+    <script src="http://assets.dwstatic.com/f=project/mobigame5253/js/5253sitenav.js"></script>
+    <!-- }5253通用导航 -->
+
+		<!--wrap { -->
+		<div class="wrap info-wrap">
+
+			<div id="header">
+
+				<div class="box-1">
+<!-- 下拉菜单{ -->
+ <div class="nav">
+  <div id="menu1" class="menusel">
+    <h2><a href="http://ls.duowan.com/"  style="background:none;">专区首页</a></h2>
+    <div class="position">
+    </div>
+    <!-- position -->
+  </div>
+
+  <!-- menusel -->
+  <div id="menu2" class="menusel">
+      <h2><a href="http://ls.duowan.com/decks/" style="background:none;"><span style="color:#ffffff;">卡组站</span></a></h2>
+    <div class="position">
+
+    </div>
+    <!-- position -->
+  </div>
+
+
+
+  <!-- menuse2 -->
+  <div id="menu3" class="menusel">
+    <h2><a href="http://ls.duowan.com/video/" style="background:none;"><span style="color:#ffffff;">视频站</span></a></h2>
+    <div class="position">
+
+    </div>
+    <!-- position -->
+  </div>
+
+
+  <!-- menuse9 -->
+  <div id="menu9" class="menusel">
+    <h2><a href="http://ls.duowan.com/zhibo/" style="background:none;"><span style="color:#ffffff;">直播站</span></a></h2>
+    <div class="position">
+
+    </div>
+    <!-- position -->
+  </div>
+
+
+
+  <!-- menuse3 -->
+  <div id="menu4" class="menusel">
+   <h2><a href="http://db.duowan.com/lushi">卡牌数据库</a></h2>
+    <div class="position">
+            <ul class="clearfix typeul">
+       <li><a href="http://db.duowan.com/lushi">全部卡牌</a></li>
+        <li><a href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTUxNGRcdThkMzkiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">免费卡牌</a></li>
+        <li><a href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTY2NmVcdTkwMWEiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">普通卡牌</a> </li>
+        <li><a href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTdhMDBcdTY3MDkiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">稀有卡牌</a></li>
+        <li><a href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTUzZjJcdThiZDciLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">史诗卡牌</a> </li>
+        <li><a href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTRmMjBcdThiZjQiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">传说卡牌</a></li>
+
+        </ul>
+    </div>
+    <!-- position -->
+  </div>
+
+
+
+  <!-- menuse4 -->
+  <div id="menu5" class="menusel">
+    <h2><a href="http://ls.duowan.com/deckbuilder/index.html">卡组模拟器</a></h2>
+    <div class="position">
+            <ul class="clearfix typeul">
+       <li><a href="http://ls.duowan.com/deckbuilder/index.html#^2">德鲁伊</a></li>
+        <li><a href="http://ls.duowan.com/deckbuilder/index.html#^4">猎人</a></li>
+        <li><a href="http://ls.duowan.com/deckbuilder/index.html#^3">法师</a></li>
+        <li><a href="http://ls.duowan.com/deckbuilder/index.html#^7">圣骑士</a></li>
+        <li><a href="http://ls.duowan.com/deckbuilder/index.html#^5">牧师</a></li>
+        <li><a href="http://ls.duowan.com/deckbuilder/index.html#^1">盗贼</a></li>
+        <li><a href="http://ls.duowan.com/deckbuilder/index.html#^6">萨满祭司</a></li>
+        <li><a href="http://ls.duowan.com/deckbuilder/index.html#^8">术士</a></li>
+        <li><a href="http://ls.duowan.com/deckbuilder/index.html#^9">战士</a></li>
+      
+        </ul>
+    </div>
+    <!-- position -->
+  </div>
+
+  <!-- menuse5 -->
+  <div id="menu6" class="menusel">
+    <h2><a href="http://ls.duowan.com/deckbuilder/arena.html" style="background:none;">竞技场模拟器</a></h2>
+    <div class="position">
+            
+    </div>
+    <!-- position -->
+  </div>
+
+  <!-- menuse6 -->
+  <div id="menu7" class="menusel">
+     <h2><a href="http://ls.duowan.com/1312/250616473325.html" style="background:none;">手机看炉石</a></h2>
+    <div class="position">
+  
+    </div>
+    <!-- position -->
+  </div>
+
+
+  <!-- menuse7 -->
+  <div id="menu8" class="menusel">
+    <h2><a href="http://bbs.duowan.com/forum-2154-1.html" style="background:none;">炉石论坛</a></h2>
+    <div class="position">
+
+    </div>
+    <!-- position -->
+  </div>
+
+  <script type="text/javascript"> 
+       $(".menusel").hover(function() {
+        $(this).find('.position>ul').show();
+      }, function() {
+        $(this).find('.position>ul').hide();
+      });
+      $(".menusel li").hover(function() {
+        $(this).find('>ul').show();
+      }, function() {
+        $(this).find('>ul').hide();
+      });
+  </script>
+
+</div>
+ <!-- }下拉菜单 -->
+
+</div>
+
+
+			</div><!--header }-->
+
+
+
+
+
+
+
+
+
+
+			<div class="blank10"></div>
+			<!--搜索{ -->
+			<div class="search-box clearfix">
+				<div class="form"> 
+					<form class="clearfix" accept-charset="utf-8" target="_self" action="http://db.duowan.com/lushi/card/search.html" method="get" id="globalSearch">
+						<input type="hidden" name="title" value="Special:搜索"> 
+						<input type="search" id="searchInput" title="搜索卡牌、技能、副本" accesskey="f" name="q" value=""> 
+						<input type="hidden" value="搜索" name="fulltext">
+						<a target="_self" onClick="jQuery('#globalSearch').submit()" class="btn">搜索</a>
+					</form>
+				</div>     
+
+				<div class="form-info"> 
+					<b>热门搜索：</b>
+					<a href="http://db.duowan.com/lushi/card/search.html?q=%E7%82%8E%E9%AD%94%E4%B9%8B%E7%8E%8B%E6%8B%89%E6%A0%BC%E7%BA%B3%E7%BD%97%E6%96%AF" title="">[炎魔之王拉格纳罗斯]</a><a href="http://db.duowan.com/lushi/card/search.html?q=%E5%B8%8C%E5%B0%94%E7%93%A6%E5%A8%9C%E6%96%AF%C2%B7%E9%A3%8E%E8%A1%8C%E8%80%85" title="">[希尔瓦娜斯·风行者]</a><a href="http://db.duowan.com/lushi/card/search.html?q=%E4%BC%8A%E7%91%9F%E6%8B%89" title="">[伊瑟拉]</a><a href="http://db.duowan.com/lushi/card/search.html?q=%E6%8F%90%E9%87%8C%E5%A5%A5%C2%B7%E5%BC%97%E4%B8%81" title="">[提里奥·弗丁]</a><a href="http://db.duowan.com/lushi/card/search.html?q=%E6%A0%BC%E7%BD%97%E7%8E%9B%E4%BB%80%C2%B7%E5%9C%B0%E7%8B%B1%E5%92%86%E5%93%AE" title="">[格罗玛什·地狱咆哮]</a>
+				</div>   
+			</div>
+			<!--}搜索 -->
+
+
+
+			<div class="blank10"></div>
+			<!--layout{ -->
+			<div class="layout clearfix">
+
+				<div class="main-info">
+
+	<!--{mod-choose -->
+	<div class="mod-choose clearfix">
+		<div class="mod-hd"><h3 class="t-3">类别筛选</h3>
+			<a target="_top" href="http://db.duowan.com/lushi/card/list/W10_3_.html" class="more">重置筛选条件</a></div>
+		<div class="mod-bd clearfix">
+
+			<div><b>职业：</b>
+				<a target="_top" class="cur" href="http://db.duowan.com/lushi/card/list/eyJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">不限</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NmNkNVx1NWUwOCIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">法师</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NzZkN1x1OGQzYyIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">盗贼</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NzI2N1x1NWUwOCIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">牧师</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NjcyZlx1NThlYiIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">术士</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NjIxOFx1NThlYiIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">战士</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NzMwZVx1NGViYSIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">猎人</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1ODQyOFx1NmVlMSIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">萨满</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NTcyM1x1OWE5MVx1NThlYiIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">圣骑士</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NWZiN1x1OWM4MVx1NGYwYSIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">德鲁伊</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NGUyZFx1N2FjYiIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">中立</a>
+				<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJjbGFzcyI6Ilx1NjViMFx1NTM2MVx1NzI0YyIsInAiOiIxIiwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">新卡牌</a>
+			</div>
+			<div><b>类型：</b>
+			<a target="_top" class="cur" href="http://db.duowan.com/lushi/card/list/eyJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">不限</a>
+			<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJUeXBlIjoiXHU5NjhmXHU0ZWNlIiwicCI6IjEiLCJzb3J0IjoiaWQuZGVzYyJ9.html">随从</a>
+			<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJUeXBlIjoiXHU2Y2Q1XHU2NzJmIiwicCI6IjEiLCJzb3J0IjoiaWQuZGVzYyJ9.html">法术</a>
+			<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJUeXBlIjoiXHU4OGM1XHU1OTA3IiwicCI6IjEiLCJzb3J0IjoiaWQuZGVzYyJ9.html">装备</a>
+
+			</div>
+			<div><b>稀有度：</b>
+			<a target="_top" class="cur" href="http://db.duowan.com/lushi/card/list/eyJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">不限</a>
+			<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTUxNGRcdThkMzkiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">免费</a>
+			<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTY2NmVcdTkwMWEiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">普通</a>
+			<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTdhMDBcdTY3MDkiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">稀有</a>
+			<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTUzZjJcdThiZDciLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">史诗</a>
+			<a target="_top"  href="http://db.duowan.com/lushi/card/list/eyJSYXJpdHkiOiJcdTRmMjBcdThiZjQiLCJwIjoiMSIsInNvcnQiOiJpZC5kZXNjIn0_3_.html">传说</a>
+
+			</div>
+		</div>
+	</div>
+	<!--mod-choose} -->
+
+
+
+	<div class="blank10"></div>
+	<div class="mod-table table-gray">
+		<table class="table-s3">
+
+			<colgroup>
+				<col>
+				<col class="even">
+				<col>
+				<col class="even">
+				<col>
+				<col class="even">
+				<col>
+				<col class="even">
+			</colgroup>
+			<thead>
+				<tr>
+					<th scope="col">名称</th>
+					<th scope="col">技能</th>
+					<th scope="col">描述</th>
+					<th scope="col">职业</th>
+					<th scope="col">类型</th>
+					<th scope="col"><a target="_top" href="http://db.duowan.com/lushi/card/list/eyJwIjoxLCJzb3J0IjoiTWFuYS5hc2MifQ_3__3_.html"><em>法力</em><div class="arrow"><i class="up"></i><i class="down"></i> </div></a></th>
+					<th scope="col"><a target="_top" href="http://db.duowan.com/lushi/card/list/eyJwIjoxLCJzb3J0IjoiQXR0YWNrLmFzYyJ9.html"><em>攻击</em><div class="arrow"><i class="up"></i><i class="down"></i> </div></a></th>
+					<th scope="col"><a target="_top" href="http://db.duowan.com/lushi/card/list/eyJwIjoxLCJzb3J0IjoiSGVhbHRoLmFzYyJ9.html"><em>生命</em><div class="arrow"><i class="up"></i><i class="down"></i> </div></a></th>
+				</tr>
+			</thead>
+			<tbody>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Murloc_Tinyfin.html" data-src="http://img.dwstatic.com/ls/pic/card/Murloc Tinyfin.png">鱼人宝宝</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt"></td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Huge_Toad.html" data-src="http://img.dwstatic.com/ls/pic/card/Huge Toad.png">巨型蟾蜍</a></td>
+					<td class="skill">
+											<a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）"><img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+																				
+					</td>
+					<td class="txt">亡语：对一个随机敌人造成1点伤害。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Jeweled_Scarab.html" data-src="http://img.dwstatic.com/ls/pic/card/Jeweled Scarab.png">宝石甲虫</a></td>
+					<td class="skill">
+																<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a><a data-tips="Discover（发现：随机展示中立和本职业符合条件的三张卡牌，选择其中一项加入手牌）"><img src="http://img.dwstatic.com/ls/pic/mc/Discover.png"></a>
+															
+					</td>
+					<td class="txt">战吼：发现一张法力值消耗为（3）的卡牌。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Tomb_Spider.html" data-src="http://img.dwstatic.com/ls/pic/card/Tomb Spider.png">墓穴蜘蛛</a></td>
+					<td class="skill">
+																<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a><a data-tips="Discover（发现：随机展示中立和本职业符合条件的三张卡牌，选择其中一项加入手牌）"><img src="http://img.dwstatic.com/ls/pic/mc/Discover.png"></a>
+															
+					</td>
+					<td class="txt">战吼：发现一张野兽牌。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Gorillabot_A_3.html" data-src="http://img.dwstatic.com/ls/pic/card/Gorillabot A3.png">A-3型机械金刚</a></td>
+					<td class="skill">
+																<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a><a data-tips="Discover（发现：随机展示中立和本职业符合条件的三张卡牌，选择其中一项加入手牌）"><img src="http://img.dwstatic.com/ls/pic/mc/Discover.png"></a>
+															
+					</td>
+					<td class="txt">战吼：如果你控制任何机械，则发现一张机械牌</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Anubisath_Sentinel.html" data-src="http://img.dwstatic.com/ls/pic/card/Anubisath Sentinel.png">阿努比萨斯哨兵</a></td>
+					<td class="skill">
+											<a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）"><img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+																				
+					</td>
+					<td class="txt">亡语：使一个随机友方随从获得+3/+3。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Wobbling_Runts.html" data-src="http://img.dwstatic.com/ls/pic/card/Wobbling Runts.png">摇摆的俾米格</a></td>
+					<td class="skill">
+																<a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）"><img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a><a data-tips="Summon（召唤：召唤一个随从到战场中。）"><img src="http://img.dwstatic.com/ls/pic/mc/Summon.png"></a>
+															
+					</td>
+					<td class="txt">亡语：召唤3个2/2的俾格米。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Fossilized_Devilsaur.html" data-src="http://img.dwstatic.com/ls/pic/card/Fossilized Devilsaur.png">石化魔暴龙</a></td>
+					<td class="skill">
+											<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+																				
+					</td>
+					<td class="txt">战吼：如果你控制任何野兽，便获得嘲讽。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>8<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>8<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>8<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Ancient_Shade.html" data-src="http://img.dwstatic.com/ls/pic/card/Ancient Shade.png">远古暗影</a></td>
+					<td class="skill">
+											<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+																				
+					</td>
+					<td class="txt">战吼：将一张"远古诅咒"牌洗入你的牌库。当你抽到该牌时，便会受到7点伤害。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Eerie_Statue.html" data-src="http://img.dwstatic.com/ls/pic/card/Eerie Statue.png">诡异的雕像</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">无法攻击，除非它是战场上的唯一一个随从。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Summoning_Stone.html" data-src="http://img.dwstatic.com/ls/pic/card/Summoning Stone.png">集合石</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">每当你释放一个法术，召唤一个法力值消耗相同的随机随从。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+															style="color:#c600ff"
+															
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Naga_Sea_Witch.html" data-src="http://img.dwstatic.com/ls/pic/card/Naga Sea Witch.png">娜迦海巫</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">你的卡牌法力值消耗为（5）点。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+															style="color:#c600ff"
+															
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Djinni_of_Zephyrs.html" data-src="http://img.dwstatic.com/ls/pic/card/Djinni of Zephyrs.png">西风灯神</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">当你对一个其他友方随从释放法术时，将法术效果复制在此随从身上。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+										style="color:#FF6600"
+																				
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Sir_Finley_Mrrgglton.html" data-src="http://img.dwstatic.com/ls/pic/card/Sir Finley Mrrgglton.png">芬利莫格顿爵士</a></td>
+					<td class="skill">
+																<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a><a data-tips="Discover（发现：随机展示中立和本职业符合条件的三张卡牌，选择其中一项加入手牌）"><img src="http://img.dwstatic.com/ls/pic/mc/Discover.png"></a>
+															
+					</td>
+					<td class="txt">战吼：发现一个新的基础英雄技能。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+										style="color:#FF6600"
+																				
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Brann_Bronzebeard.html" data-src="http://img.dwstatic.com/ls/pic/card/Brann Bronzebeard.png">布莱恩铜须</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">你的战吼会触发两次。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+										style="color:#FF6600"
+																				
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Elise_Starseeker.html" data-src="http://img.dwstatic.com/ls/pic/card/Elise Starseeker.png">伊莉斯逐星</a></td>
+					<td class="skill">
+											<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+																				
+					</td>
+					<td class="txt">战吼：将"黄金猿藏宝图"洗入你的牌库。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+										style="color:#FF6600"
+																				
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Reno_Jackson.html" data-src="http://img.dwstatic.com/ls/pic/card/Reno Jackson.png">雷诺杰克逊</a></td>
+					<td class="skill">
+											<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+																				
+					</td>
+					<td class="txt">战吼：如果你的牌库里没有相同的牌，则为你的英雄恢复所有生命值。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+										style="color:#FF6600"
+																				
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Arch_Thief_Rafaam.html" data-src="http://img.dwstatic.com/ls/pic/card/Arch Thief Rafaam.png">虚灵大盗拉法姆</a></td>
+					<td class="skill">
+																<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a><a data-tips="Discover（发现：随机展示中立和本职业符合条件的三张卡牌，选择其中一项加入手牌）"><img src="http://img.dwstatic.com/ls/pic/mc/Discover.png"></a>
+															
+					</td>
+					<td class="txt">战吼：发现一张强大的神器牌。</td>
+					<td>中立</td>
+					<td>随从</td>
+					<td>9<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>8<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Fierce_Monkey.html" data-src="http://img.dwstatic.com/ls/pic/card/Fierce Monkey.png">凶暴猿猴</a></td>
+					<td class="skill">
+											<a data-tips="Taunt（嘲讽，无法成为法术或英雄技能的目标。）"><img src="http://img.dwstatic.com/ls/pic/mc/Taunt.png"></a>
+																				
+					</td>
+					<td class="txt">嘲讽</td>
+					<td>战士</td>
+					<td>随从</td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Obsidian_Destroyer.html" data-src="http://img.dwstatic.com/ls/pic/card/Obsidian Destroyer.png">黑曜石毁灭者</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">在你的回合结束时，召唤一个1/1并具有嘲讽的圣甲虫。</td>
+					<td>战士</td>
+					<td>随从</td>
+					<td>7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Cursed_Blade.html" data-src="http://img.dwstatic.com/ls/pic/card/Cursed Blade.png">诅咒之刃</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">所有攻击会对你的英雄造成双倍伤害。</td>
+					<td>战士</td>
+					<td>武器</td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Dark_Peddler.html" data-src="http://img.dwstatic.com/ls/pic/card/Dark Peddler.png">黑市摊贩</a></td>
+					<td class="skill">
+																<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a><a data-tips="Discover（发现：随机展示中立和本职业符合条件的三张卡牌，选择其中一项加入手牌）"><img src="http://img.dwstatic.com/ls/pic/mc/Discover.png"></a>
+															
+					</td>
+					<td class="txt">战吼：发现一张法力值消耗为"1"的卡牌。</td>
+					<td>术士</td>
+					<td>随从</td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Curse_of_Rafaam.html" data-src="http://img.dwstatic.com/ls/pic/card/Curse of Rafaam.png">拉法姆的诅咒</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">使你的对手获得一张"诅咒!"牌。在对手的回合开始时，如果他在对手的手牌中，则造成两点伤害。</td>
+					<td>术士</td>
+					<td>法术</td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Reliquary_Seeker.html" data-src="http://img.dwstatic.com/ls/pic/card/Reliquary Seeker.png">遗物搜寻者</a></td>
+					<td class="skill">
+											<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+																				
+					</td>
+					<td class="txt">战吼：如果你控制至少6个随从，便获得+4/+4。</td>
+					<td>术士</td>
+					<td>随从</td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Tunnel_Trogg.html" data-src="http://img.dwstatic.com/ls/pic/card/Tunnel Trogg.png">坑道穴居人</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">当你过载时，每一个被锁的法力水晶会使其获得+1攻击力。</td>
+					<td>萨满</td>
+					<td>随从</td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Rumbling_Elemental.html" data-src="http://img.dwstatic.com/ls/pic/card/Rumbling Elemental.png">顽石元素</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">当你召唤一个具有战吼的随从时，对一个随机敌人造成2点伤害。</td>
+					<td>萨满</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Everyfin_is_Awesome.html" data-src="http://img.dwstatic.com/ls/pic/card/Everyfin is Awesome.png">鱼人恩典</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">使你的随从获得+2/+2。你每控制一个鱼人，该牌的法力值消耗便减少（1）点。</td>
+					<td>萨满</td>
+					<td>法术</td>
+					<td>7<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Pit_Snake.html" data-src="http://img.dwstatic.com/ls/pic/card/Pit Snake.png">深渊巨蟒</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">消灭任何受到该随从伤害的随从。</td>
+					<td>盗贼</td>
+					<td>随从</td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Unearthed_Raptor.html" data-src="http://img.dwstatic.com/ls/pic/card/Unearthed Raptor.png">石化迅猛龙</a></td>
+					<td class="skill">
+											<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+																				
+					</td>
+					<td class="txt">战吼：选择一个友方随从，将其亡语效果复制到自己身上。</td>
+					<td>盗贼</td>
+					<td>随从</td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Tomb_Pillager.html" data-src="http://img.dwstatic.com/ls/pic/card/Tomb Pillager.png">盗墓匪贼</a></td>
+					<td class="skill">
+											<a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）"><img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+																				
+					</td>
+					<td class="txt">亡语：将一个幸运币置入你的手牌。</td>
+					<td>盗贼</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Museum_Curator.html" data-src="http://img.dwstatic.com/ls/pic/card/Museum Curator.png">博物馆馆长</a></td>
+					<td class="skill">
+																<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a><a data-tips="Discover（发现：随机展示中立和本职业符合条件的三张卡牌，选择其中一项加入手牌）"><img src="http://img.dwstatic.com/ls/pic/mc/Discover.png"></a>
+															
+					</td>
+					<td class="txt">战吼：发现一张亡语牌。</td>
+					<td>牧师</td>
+					<td>随从</td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Entomb.html" data-src="http://img.dwstatic.com/ls/pic/card/Entomb.png">埋葬</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">选择一个敌方随从。将该随从洗入你的牌库。</td>
+					<td>牧师</td>
+					<td>法术</td>
+					<td>6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Excavated_Evil.html" data-src="http://img.dwstatic.com/ls/pic/card/Excavated Evil.png">极恶之咒</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">对所有随从造成3点伤害。将该牌洗入你对手的牌库。</td>
+					<td>牧师</td>
+					<td>法术</td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Sacred_Trial.html" data-src="http://img.dwstatic.com/ls/pic/card/Sacred Trial.png">审判</a></td>
+					<td class="skill">
+											<a data-tips="Secret（奥秘：保持隐藏，直到被特定事件触发。）"><img src="http://img.dwstatic.com/ls/pic/mc/Secret.png"></a>
+																				
+					</td>
+					<td class="txt">奥秘：当你的对手打出一张随从牌时，如果他控制至少三个随从，则将其消灭。</td>
+					<td>圣骑士</td>
+					<td>法术</td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Keeper_of_Uldaman.html" data-src="http://img.dwstatic.com/ls/pic/card/Keeper of Uldaman.png">奥曼达守护者</a></td>
+					<td class="skill">
+											<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+																				
+					</td>
+					<td class="txt">战吼：使一个随从的攻击力和生命值成为3。</td>
+					<td>圣骑士</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Anyfin_Can_Happen.html" data-src="http://img.dwstatic.com/ls/pic/card/Anyfin Can Happen.png">王者归来</a></td>
+					<td class="skill">
+											<a data-tips="Summon（召唤：召唤一个随从到战场中。）"><img src="http://img.dwstatic.com/ls/pic/mc/Summon.png"></a>
+																				
+					</td>
+					<td class="txt">召唤七个在本局对战中死亡的鱼人。</td>
+					<td>圣骑士</td>
+					<td>法术</td>
+					<td>10<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Forgotten_Torch.html" data-src="http://img.dwstatic.com/ls/pic/card/Forgotten Torch.png">老旧的火把</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">造成3点伤害。将一张可造成6点伤害的"炽热的火把"洗入你的牌库。</td>
+					<td>法师</td>
+					<td>法术</td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Ethereal_Conjurer.html" data-src="http://img.dwstatic.com/ls/pic/card/Ethereal Conjurer.png">虚灵巫师</a></td>
+					<td class="skill">
+																<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a><a data-tips="Discover（发现：随机展示中立和本职业符合条件的三张卡牌，选择其中一项加入手牌）"><img src="http://img.dwstatic.com/ls/pic/mc/Discover.png"></a>
+															
+					</td>
+					<td class="txt">战吼：发现一张法术牌。</td>
+					<td>法师</td>
+					<td>随从</td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>6<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Animated_Armor.html" data-src="http://img.dwstatic.com/ls/pic/card/Animated Armor.png">复活的铠甲</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">你的英雄每次只会受到1点伤害。</td>
+					<td>法师</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Dart_Trap.html" data-src="http://img.dwstatic.com/ls/pic/card/Dart Trap.png">毒镖陷阱</a></td>
+					<td class="skill">
+											<a data-tips="Secret（奥秘：保持隐藏，直到被特定事件触发。）"><img src="http://img.dwstatic.com/ls/pic/mc/Secret.png"></a>
+																				
+					</td>
+					<td class="txt">奥秘：当对方使用英雄技能时，对一个随机敌人造成5点伤害。</td>
+					<td>猎人</td>
+					<td>法术</td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Desert_Camel.html" data-src="http://img.dwstatic.com/ls/pic/card/Desert Camel.png">大漠沙驼</a></td>
+					<td class="skill">
+											<a data-tips="Battlecry(战吼：卡牌上场时立即生效的效果)"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+																				
+					</td>
+					<td class="txt">战吼：从双方的牌库中各将一个法力值消耗为（1）点的随从置入战场。</td>
+					<td>猎人</td>
+					<td>随从</td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Explorer_s_Hat.html" data-src="http://img.dwstatic.com/ls/pic/card/Explorer s Hat.png">探险帽</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">使一个随从获得+1/+1，以及亡语：将一个探险帽置入你的手牌。</td>
+					<td>猎人</td>
+					<td>法术</td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Raven_Idol.html" data-src="http://img.dwstatic.com/ls/pic/card/Raven Idol.png">乌鸦神像</a></td>
+					<td class="skill">
+																<a data-tips="Choose One（抉择：选择其中一个效果）"><img src="http://img.dwstatic.com/ls/pic/mc/Choose One.png"></a><a data-tips="Discover（发现：随机展示中立和本职业符合条件的三张卡牌，选择其中一项加入手牌）"><img src="http://img.dwstatic.com/ls/pic/mc/Discover.png"></a>
+															
+					</td>
+					<td class="txt">抉择：发现一张随从牌；或者发现一张法术牌。</td>
+					<td>德鲁伊</td>
+					<td>法术</td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Mounted_Raptor.html" data-src="http://img.dwstatic.com/ls/pic/card/Mounted Raptor.png">骑乘迅猛龙</a></td>
+					<td class="skill">
+																<a data-tips="Deathrattle（亡语：该效果在本卡牌被移除时起效）"><img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a><a data-tips="Summon（召唤：召唤一个随从到战场中。）"><img src="http://img.dwstatic.com/ls/pic/mc/Summon.png"></a>
+															
+					</td>
+					<td class="txt">亡语：随机召唤一个法力值消耗为（1）的随从。</td>
+					<td>德鲁伊</td>
+					<td>随从</td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Jungle_Moonkin.html" data-src="http://img.dwstatic.com/ls/pic/card/Jungle Moonkin.png">丛林枭兽</a></td>
+					<td class="skill">
+																				
+					</td>
+					<td class="txt">每个玩家获得法术伤害+2。</td>
+					<td>德鲁伊</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Living_Roots.html" data-src="http://img.dwstatic.com/ls/pic/card/Living Roots.png">活体根须</a></td>
+					<td class="skill">
+											<a data-tips="Choose One（抉择：选择其中一个效果）"><img src="http://img.dwstatic.com/ls/pic/mc/Choose One.png"></a>
+																				
+					</td>
+					<td class="txt">抉择：造成2点伤害或者召唤两个1/1随从。</td>
+					<td>德鲁伊</td>
+					<td>法术</td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>0<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Druid_of_the_Saber.html" data-src="http://img.dwstatic.com/ls/pic/card/Druid of the Saber.png">刃牙德鲁伊</a></td>
+					<td class="skill">
+											<a data-tips="Choose One（抉择：选择其中一个效果）"><img src="http://img.dwstatic.com/ls/pic/mc/Choose One.png"></a>
+																				
+					</td>
+					<td class="txt">抉择：获得冲锋或者此卡获得+1+1且潜行。</td>
+					<td>德鲁伊</td>
+					<td>随从</td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>1<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																									style="color:#008000"
+					
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Wildwalker.html" data-src="http://img.dwstatic.com/ls/pic/card/Wildwalker.png">狂野行者</a></td>
+					<td class="skill">
+											<a data-tips="Battlecry（战吼：随从登场的时候将会发动。）"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a>
+																				
+					</td>
+					<td class="txt">战吼：给一个友方野兽+3生命值</td>
+					<td>德鲁伊</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Darnassus_Aspirant.html" data-src="http://img.dwstatic.com/ls/pic/card/Darnassus Aspirant.png">达纳苏斯豹骑士</a></td>
+					<td class="skill">
+																<a data-tips="Battlecry（战吼：随从登场的时候将会发动。）"><img src="http://img.dwstatic.com/ls/pic/mc/Battlecry.png"></a><a data-tips="Deathrattle（亡语：将一张零件牌置入你的手牌。）"><img src="http://img.dwstatic.com/ls/pic/mc/Deathrattle.png"></a>
+															
+					</td>
+					<td class="txt">战吼：获得一颗空的法力水晶，亡语：失去一颗法力水晶。</td>
+					<td>德鲁伊</td>
+					<td>随从</td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>2<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>3<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+								<tr>
+					<td class="name"><a 
+					
+																				style="color:#3366ff"
+										
+					target="_blank" href="http://db.duowan.com/lushi/card/detail/Savage_Combatant.html" data-src="http://img.dwstatic.com/ls/pic/card/Savage Combatant.png">狂野争斗者</a></td>
+					<td class="skill">
+											<a data-tips="Inspire（激励：在使用英雄技能时候触发）"><img src="http://img.dwstatic.com/ls/pic/mc/Inspire.png"></a>
+																				
+					</td>
+					<td class="txt">激励：使你的英雄获得+2攻击力。</td>
+					<td>德鲁伊</td>
+					<td>随从</td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon01.png"></td>
+					<td>5<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon03.png"></td>
+					<td>4<img style="width: 12px; height: 12px;" src="http://ls.duowan.com/s/v1310/ls_icon02.png"></td>
+				</tr>
+							</tbody>
+			<tfoot>
+			</tfoot>
+		</table>
+
+		<div class="blank10"></div>
+		<!--分页码{ -->    
+		<div class="mod-page center">
+			<a target="_self" title="上一页" rel="prev" href="http://db.duowan.com/lushi/card/list/eyJwIjoxLCJzb3J0IjoiaWQuZGVzYyJ9.html">上一页</a>
+									<a target="_self" class="current" title="已经是当前页"  title="第1页" href="http://db.duowan.com/lushi/card/list/eyJwIjoxLCJzb3J0IjoiaWQuZGVzYyJ9.html">1</a>
+						<a target="_self"  title="第2页" href="http://db.duowan.com/lushi/card/list/eyJwIjoyLCJzb3J0IjoiaWQuZGVzYyJ9.html">2</a>
+						<a target="_self"  title="第3页" href="http://db.duowan.com/lushi/card/list/eyJwIjozLCJzb3J0IjoiaWQuZGVzYyJ9.html">3</a>
+						<a target="_self"  title="第4页" href="http://db.duowan.com/lushi/card/list/eyJwIjo0LCJzb3J0IjoiaWQuZGVzYyJ9.html">4</a>
+						<a target="_self"  title="第5页" href="http://db.duowan.com/lushi/card/list/eyJwIjo1LCJzb3J0IjoiaWQuZGVzYyJ9.html">5</a>
+						<a target="_self"  title="第6页" href="http://db.duowan.com/lushi/card/list/eyJwIjo2LCJzb3J0IjoiaWQuZGVzYyJ9.html">6</a>
+						<a target="_self"  title="第7页" href="http://db.duowan.com/lushi/card/list/eyJwIjo3LCJzb3J0IjoiaWQuZGVzYyJ9.html">7</a>
+						<a target="_self"  title="第8页" href="http://db.duowan.com/lushi/card/list/eyJwIjo4LCJzb3J0IjoiaWQuZGVzYyJ9.html">8</a>
+						<a target="_self"  title="第9页" href="http://db.duowan.com/lushi/card/list/eyJwIjo5LCJzb3J0IjoiaWQuZGVzYyJ9.html">9</a>
+						<a target="_self"  title="第10页" href="http://db.duowan.com/lushi/card/list/eyJwIjoxMCwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">10</a>
+									<span>...</span>
+			<a target="_self" title="末页" href="http://db.duowan.com/lushi/card/list/eyJwIjoxNSwic29ydCI6ImlkLmRlc2MifQ_3__3_.html">15</a>
+						<a target="_self" title="下一页" rel="next" href="http://db.duowan.com/lushi/card/list/eyJwIjoyLCJzb3J0IjoiaWQuZGVzYyJ9.html">下一页</a>
+		</div>
+		<!--分页码} -->
+		<div class="blank10"></div>
+
+	</div>
+
+
+
+
+
+
+
+
+</div><!-- 模块内容PonyCui 2013.06.24 -->
+				<!--main-info} -->
+
+			</div><!--layout} -->
+
+
+
+			<div class="clear"></div>
+			<div id="foot">
+				<!-- 版权信息{ -->
+				<script type="text/javascript" src="http://www.duowan.com/assets/js/duowanFooter.js" charset="utf-8"></script>
+				<!-- }版权信息 -->
+				
+                <script type="text/javascript">
+                var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+                document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Ff5a3d04dd270514f19dca7de8101d698' type='text/javascript'%3E%3C/script%3E"));
+                </script>
+
+				
+			</div> 
+
+
+		</div> <!--} wrap-->
+
+
+
+		<script>
+			LEGO.toolTip({style: 2});
+			$(function(){
+				var x = 20;
+				var y = 20;
+				var z = 300;
+				$("td.name a").mouseover(function(e){
+
+					_winHeight = $(window).height();
+					_top = e.pageY - $(window).scrollTop();
+					_bottom = _winHeight - _top;
+					this.myTitle = this.title;
+					this.title = "";
+					var imgTitle = this.myTitle? "<br/>" + this.myTitle : "";
+					var tooltip = "<div id='tooltip'><img src='"+ $(this).attr('data-src') +"' alt='预览图'/>"+imgTitle+"<\/div>";
+					$("body").append(tooltip);
+
+					if(_bottom >= z){
+						$("#tooltip")
+						.css({
+							"position": "absolute",
+							"top": (e.pageY+y)  + "px",
+							"left":  (e.pageX+x)  + "px"
+						}).show()
+					}else if(_bottom < z){
+						$("#tooltip")
+						.css({
+							"position": "absolute",
+							"top": (e.pageY+y-z)  + "px",
+							"left":  (e.pageX+x)  + "px"
+						}).show()
+					}
+				}).mouseout(function(){
+					this.title = this.myTitle;
+					$("#tooltip").remove();
+				});
+			})
+		</script>
+
+
+
+
+
+
+
+
+	</body>
+</html>
+
+
+Process finished with exit code 0
